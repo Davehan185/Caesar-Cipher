@@ -1,0 +1,43 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #2f2f2f;
+}
+
+h1 {
+    color: black;
+    align-self: center;
+    /* background-color: #2f2f2f;  */
+}
+
+#title {
+text-align: center;
+background-color: darkgray;
+}
+
+#cipherText {
+    color:black ;
+}
+
+#cipherValue {
+    color:black ;
+}
+    
+p {font-size: 16px;}
+
+.margin {margin-bottom: 45px;}
+
+.bg-1 { 
+    background-color: gray; 
+ 
+}
+
+.bg-2 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

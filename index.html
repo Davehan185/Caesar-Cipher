@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Caesar Cipher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+      
+</head>
+<body>
+
+    <div class="container-fluid bg-2">
+        <div class="row justify-content-center bg-2">
+            <div class="col-sm" id=title>
+                <h1>Caesar Cipher</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="Cipher" class="container-fluid bg-1 text-center">
+
+        <img src="cipher.PNG" class="img-responsive img-circle margin" style="display:inline" alt="A picture of a decode ring" width="250" height="250">
+        <div class="row justify-content-center">
+            <div>
+		        <label for="msg">Message</label>
+		        <input type="text" class="encrypt" shift="msg">
+	        </div>
+
+	        <div>
+		        <label for="shift">Shift</label>
+		        <input type="number" class="encrypt" step="1" max="36" min="-36" id="shift" value="2">
+	        </div>
+
+	        <div>
+		        <label for="cipher">Encrypted Message</label>
+		        <input type="text" id="cipher" readonly>
+	        </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
